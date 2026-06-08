@@ -1,7 +1,7 @@
 const UHO_CONFIG = {
   checkoutEndpoint: "https://wdvtwkwcjvvrspbfurje.supabase.co/functions/v1/create-checkout",
   supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndkdnR3a3djanZ2cnNwYmZ1cmplIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA3NTgxMzIsImV4cCI6MjA5NjMzNDEzMn0.Ap0JaCCljpA-SCBy8ayt_KfN8V0zB_jw-8Rjc1gFCfY",
-  downloadUrl: "https://uhodictation.com/downloads/uho-dictation-latest.dmg",
+  downloadUrl: "https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho-dictation-1.1.0-arm64.dmg",
   supportEmail: "support@mail.uhodictation.com",
   appVersion: "landing-v1",
   emailStorageKey: "uho_purchase_email",
@@ -103,7 +103,7 @@ async function openCheckout(email, statusNode, submitButton) {
 }
 
 function handleDownload() {
-  if (!UHO_CONFIG.downloadUrl || UHO_CONFIG.downloadUrl.includes("latest.dmg")) {
+  if (!UHO_CONFIG.downloadUrl) {
     return;
   }
   window.location.href = UHO_CONFIG.downloadUrl;

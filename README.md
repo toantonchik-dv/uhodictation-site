@@ -17,14 +17,12 @@ This folder contains the static landing site for `uho Dictation`.
 - Paddle checkout opens from the returned `checkoutURL`
 - support email is set to `support@mail.uhodictation.com`
 
-## What still needs final release setup
+## Current release download
 
-Before going live, update `downloadUrl` in `app.js` to the final public DMG URL.
-
-Recommended final file URL:
+Current public DMG URL:
 
 ```text
-https://uhodictation.com/downloads/uho-dictation-latest.dmg
+https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho-dictation-1.1.0-arm64.dmg
 ```
 
 ## Local preview
