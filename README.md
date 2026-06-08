@@ -1,15 +1,20 @@
 # uho Dictation Website
 
-This folder contains the static landing site for `uho Dictation`.
+This repository is the production static landing site for `uho Dictation`.
 
-## Files
+## Structure
+
+The site lives in the repository root:
 
 - `index.html` - main landing page
 - `styles.css` - shared visual system
 - `app.js` - checkout and email form logic
+- `site.js` - EN/UA translations and legal-page content
 - `terms.html`
 - `privacy.html`
 - `refund-policy.html`
+- `assets/`
+- `CNAME`
 
 ## What is already connected
 
@@ -25,6 +30,12 @@ Current public DMG URL:
 https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho-dictation-1.1.0-arm64.dmg
 ```
 
+## Deploy model
+
+- GitHub Pages deploys from this repository
+- the workflow is `.github/workflows/deploy-pages.yml`
+- `uhodictation.com` is defined in `CNAME`
+
 ## Local preview
 
 From the repo root:
@@ -36,5 +47,5 @@ python3 -m http.server 4173
 Then open:
 
 ```text
-http://127.0.0.1:4173/website/
+http://127.0.0.1:4173/
 ```

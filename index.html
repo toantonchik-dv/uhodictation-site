@@ -14,7 +14,7 @@
     <div class="page-shell">
       <header class="site-header">
         <div class="container site-header-inner">
-          <a class="brand" href="#top" aria-label="uho Dictation home">
+          <a class="brand" href="#top" aria-label="uho Dictation home" data-i18n-aria-label="brand.homeAria">
             <img class="brand-icon" src="./assets/uho-icon.png" alt="uho Dictation icon" />
             <span>
               <span data-i18n="brand.name">uho Dictation</span>
@@ -32,7 +32,7 @@
               </button>
             </nav>
 
-            <div class="lang-switcher" role="group" aria-label="Language switcher">
+            <div class="lang-switcher" role="group" aria-label="Language switcher" data-i18n-aria-label="lang.aria">
               <button class="lang-button is-active" type="button" data-lang="en">EN</button>
               <button class="lang-button" type="button" data-lang="uk">UA</button>
             </div>
@@ -100,6 +100,43 @@
               <div class="hero-shot-card">
                 <img src="./assets/app-panel.png" alt="uho Dictation main window" class="hero-shot" />
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-tight" id="how-it-works">
+          <div class="container">
+            <div class="section-heading section-heading-compact">
+              <h2 data-i18n="how.title">How it works</h2>
+              <p data-i18n="how.body">
+                The first commercial flow is intentionally simple: download the app, try it on your Mac, then buy only if it fits.
+              </p>
+            </div>
+
+            <div class="how-grid">
+              <article class="how-step">
+                <div class="step-number">1</div>
+                <h3 data-i18n="how1.title">Download and install</h3>
+                <p data-i18n="how1.body">
+                  Get the Apple Silicon DMG, move the app to Applications, and grant the Mac permissions shown in setup.
+                </p>
+              </article>
+
+              <article class="how-step">
+                <div class="step-number">2</div>
+                <h3 data-i18n="how2.title">Use the full 3-day trial</h3>
+                <p data-i18n="how2.body">
+                  Try the real product in notes, chats, documents, forms, and other text fields before paying.
+                </p>
+              </article>
+
+              <article class="how-step">
+                <div class="step-number">3</div>
+                <h3 data-i18n="how3.title">Buy and receive your license key</h3>
+                <p data-i18n="how3.body">
+                  Enter your email, complete secure Paddle checkout, and receive the license key automatically after payment.
+                </p>
+              </article>
             </div>
           </div>
         </section>
@@ -223,7 +260,7 @@
                 <form class="buy-form" data-buy-form>
                   <label>
                     <span class="field-label" data-i18n="buy.emailLabel">Email for purchase</span>
-                    <input class="input" type="email" placeholder="you@example.com" data-purchase-email required data-i18n-placeholder="buy.emailPlaceholder" />
+                    <input class="input" type="email" placeholder="you@example.com" data-purchase-email required autocomplete="email" spellcheck="false" data-i18n-placeholder="buy.emailPlaceholder" />
                   </label>
 
                   <button class="button button-primary" type="submit" data-submit data-i18n="buy.button">
@@ -283,6 +320,67 @@
             </div>
           </div>
         </section>
+
+        <section class="section section-tight">
+          <div class="container">
+            <div class="section-heading section-heading-compact">
+              <h2 data-i18n="review.title">Before you buy</h2>
+              <p data-i18n="review.body">
+                The commercial details are visible on purpose so the first release is easy to review and easy to trust.
+              </p>
+            </div>
+
+            <div class="review-grid">
+              <article class="review-card">
+                <span class="review-label" data-i18n="review1.label">Purchase model</span>
+                <h3 data-i18n="review1.title">One-time payment, not a subscription</h3>
+                <p data-i18n="review1.body">
+                  The first release is sold as a $19 lifetime license. One purchase can be activated on up to 2 Macs.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <span class="review-label" data-i18n="review2.label">Checkout</span>
+                <h3 data-i18n="review2.title">Secure payment via Paddle</h3>
+                <p data-i18n="review2.body">
+                  Checkout is handled by Paddle as merchant of record. Available methods may include card, Apple Pay, or PayPal.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <span class="review-label" data-i18n="review3.label">Delivery</span>
+                <h3 data-i18n="review3.title">License key sent by email</h3>
+                <p data-i18n="review3.body">
+                  After successful payment, the license key is delivered automatically to the email entered at checkout.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <span class="review-label" data-i18n="review4.label">Support and policies</span>
+                <h3 data-i18n="review4.title">Clear support and legal pages</h3>
+                <p data-i18n-html="review4.body">
+                  Terms, Privacy Policy, Refund Policy, and support contact are available directly on this website.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <span class="review-label" data-i18n="review5.label">Platform</span>
+                <h3 data-i18n="review5.title">Built for Apple Silicon Mac</h3>
+                <p data-i18n="review5.body">
+                  The current release is distributed as an Apple Silicon DMG and is meant to be moved into Applications before first use.
+                </p>
+              </article>
+
+              <article class="review-card">
+                <span class="review-label" data-i18n="review6.label">First launch</span>
+                <h3 data-i18n="review6.title">Clear permission guidance</h3>
+                <p data-i18n="review6.body">
+                  Setup explains the permissions needed for normal use, including Microphone, Accessibility, and recommended Input Monitoring.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer">
@@ -335,13 +433,13 @@
               Enter the email where you want to receive your lifetime license key after payment.
             </p>
           </div>
-          <button class="close-button" type="button" data-close-buy aria-label="Close">×</button>
+          <button class="close-button" type="button" data-close-buy aria-label="Close" data-i18n-aria-label="modal.closeAria">×</button>
         </div>
 
         <form class="buy-form" data-buy-form>
           <label>
             <span class="field-label" data-i18n="buy.emailLabel">Email for purchase</span>
-            <input class="input" type="email" placeholder="you@example.com" data-purchase-email required data-i18n-placeholder="buy.emailPlaceholder" />
+            <input class="input" type="email" placeholder="you@example.com" data-purchase-email required autocomplete="email" spellcheck="false" data-i18n-placeholder="buy.emailPlaceholder" />
           </label>
 
           <button class="button button-primary" type="submit" data-submit data-i18n="modal.button">

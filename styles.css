@@ -532,6 +532,10 @@ input {
   padding: 44px 0;
 }
 
+.section-tight {
+  padding-top: 22px;
+}
+
 .section-heading {
   max-width: 680px;
   margin-bottom: 26px;
@@ -809,7 +813,8 @@ input {
 .how-step,
 .faq-item,
 .price-card,
-.footer-card {
+.footer-card,
+.review-card {
   padding: 22px;
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.05);
@@ -837,10 +842,42 @@ input {
 .how-step p,
 .faq-item p,
 .price-card p,
-.footer-card p {
+.footer-card p,
+.review-card p {
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.review-card {
+  min-height: 208px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.04));
+}
+
+.review-label {
+  display: inline-flex;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(246, 196, 93, 0.12);
+  border: 1px solid rgba(246, 196, 93, 0.22);
+  color: #ffe8b3;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.review-card h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 1.15;
 }
 
 .pricing-grid {
@@ -1137,6 +1174,7 @@ input {
   .benefit-grid,
   .comic-grid,
   .how-grid,
+  .review-grid,
   .faq-grid,
   .shots-grid,
   .benefit-grid-compact,

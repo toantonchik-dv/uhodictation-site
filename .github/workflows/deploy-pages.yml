@@ -5,7 +5,16 @@ on:
     branches:
       - main
     paths:
-      - "website/**"
+      - "index.html"
+      - "styles.css"
+      - "app.js"
+      - "site.js"
+      - "terms.html"
+      - "privacy.html"
+      - "refund-policy.html"
+      - "assets/**"
+      - "CNAME"
+      - "README.md"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
