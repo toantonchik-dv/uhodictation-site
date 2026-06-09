@@ -36,6 +36,16 @@ https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho
 - the workflow is `.github/workflows/deploy-pages.yml`
 - `uhodictation.com` is defined in `CNAME`
 
+## App update hosting
+
+This site also hosts the Sparkle appcast feeds used by the macOS app updater.
+
+- `appcast/uho.xml` - free app feed
+- `appcast/uho-dictation.xml` - commercial app feed
+- `appcast/` - also stores generated Sparkle ZIP archives, delta files, and release notes before deploy
+
+The app repository generates release ZIPs and appcasts. This site repository serves them publicly over HTTPS.
+
 ## Local preview
 
 From the repo root:

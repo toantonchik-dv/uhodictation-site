@@ -12,6 +12,7 @@ on:
       - "terms.html"
       - "privacy.html"
       - "refund-policy.html"
+      - "appcast/**"
       - "pay/**"
       - "assets/**"
       - "CNAME"
