@@ -38,11 +38,10 @@ https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho
 
 ## App update hosting
 
-This site also hosts the Sparkle appcast feeds used by the macOS app updater.
+This site also hosts the Sparkle appcast feed used by the macOS app updater.
 
-- `appcast/uho/uho.xml` - free app feed
 - `appcast/uho-dictation/uho-dictation.xml` - commercial app feed
-- `appcast/` - stores generated Sparkle ZIP archives, delta files, and release notes in per-app subfolders before deploy
+- `appcast/` - stores the generated commercial appcast XML before deploy
 
 The app repository generates release ZIPs and appcasts. This site repository serves the small appcast XML files publicly over HTTPS, while the heavy DMG/ZIP binaries stay in GitHub Releases.
 

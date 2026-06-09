@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>uho Dictation App Updates</title>
-    <link>https://uhodictation.com/appcast/uho-dictation.xml</link>
-    <description>Sparkle update feed for the uho Dictation commercial app.</description>
-    <language>en</language>
-  </channel>
-</rss>
