@@ -12,6 +12,7 @@ on:
       - "terms.html"
       - "privacy.html"
       - "refund-policy.html"
+      - "pay/**"
       - "assets/**"
       - "CNAME"
       - "README.md"
