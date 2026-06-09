@@ -3,422 +3,252 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>uho Dictation | Fast voice-to-text anywhere on Mac</title>
+    <title>uho Dictation | Dictate anywhere on your Mac</title>
     <meta
       name="description"
-      content="uho Dictation is a Mac app for fast voice-to-text anywhere. Start with a 3-day trial, then unlock a lifetime license for $19."
+      content="Turn your voice into text in any app. Fast, private, fully offline, and available with a free 3-day trial."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body data-page="landing">
     <div class="page-shell">
-      <header class="site-header">
-        <div class="container site-header-inner">
-          <a class="brand" href="#top" aria-label="uho Dictation home" data-i18n-aria-label="brand.homeAria">
-            <img class="brand-icon" src="./assets/uho-icon.png" alt="uho Dictation icon" />
-            <span>
-              <span data-i18n="brand.name">uho Dictation</span>
-              <span class="brand-sub" data-i18n="brand.tagline">Fast voice-to-text anywhere on Mac</span>
-            </span>
-          </a>
-
-          <div class="site-nav-wrap">
-            <nav class="site-nav">
-              <a href="#features" data-i18n="nav.features">Features</a>
-              <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
-              <a href="#faq" data-i18n="nav.faq">FAQ</a>
-              <button class="button button-ghost button-small" type="button" data-open-buy data-i18n="nav.buy">
-                Buy lifetime license
-              </button>
-            </nav>
-
-            <div class="lang-switcher" role="group" aria-label="Language switcher" data-i18n-aria-label="lang.aria">
-              <button class="lang-button is-active" type="button" data-lang="en">EN</button>
-              <button class="lang-button" type="button" data-lang="uk">UA</button>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main id="top">
-        <section class="hero hero-compact">
-          <div class="container hero-grid hero-grid-screenshot">
-            <div class="hero-copy">
-              <span class="eyebrow">
-                <span class="eyebrow-dot" aria-hidden="true"></span>
-                <span data-i18n="hero.eyebrow">3-day free trial • lifetime license • 2 Macs</span>
+      <section class="hero-shell">
+        <header class="site-header">
+          <div class="container site-header-inner">
+            <a class="brand" href="#top" aria-label="uho Dictation home" data-i18n-aria-label="brand.homeAria">
+              <img class="brand-icon" src="./assets/uho-icon.png" alt="uho Dictation icon" />
+              <span>
+                <span data-i18n="brand.name">uho</span>
+                <span class="brand-sub" data-i18n="brand.tagline">Dictation</span>
               </span>
+            </a>
 
-              <h1>
-                <span data-i18n="hero.titleLead">Fast voice-to-text</span>
-                <span class="serif" data-i18n="hero.titleSerif">anywhere</span>
-                <span data-i18n="hero.titleTail">on your Mac.</span>
-              </h1>
+            <div class="site-nav-wrap">
+              <nav class="site-nav">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#how-it-works" data-i18n="nav.how">How it works</a>
+                <a href="#faq" data-i18n="nav.faq">FAQ</a>
+                <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+              </nav>
 
-              <p data-i18n="hero.body">
-                uho Dictation is a lightweight Mac app that helps you speak and get text into notes, chats, docs,
-                forms, and other everyday text fields.
-              </p>
+              <a
+                class="button button-primary button-small"
+                href="https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg"
+                data-download
+                data-i18n="nav.cta"
+              >
+                Download Free Trial
+              </a>
 
-              <div class="hero-actions">
-                <a
-                  class="button button-primary"
-                  href="https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg"
-                  data-download
-                  data-i18n="hero.ctaTrial"
-                >
-                  Download free 3-day trial
-                </a>
-                <button class="button button-secondary" type="button" data-open-buy data-i18n="hero.ctaBuy">
-                  Buy lifetime license
-                </button>
-              </div>
-
-              <div class="hero-notes">
-                <span class="pill-note" data-i18n="hero.note1">Use it in any text field</span>
-                <span class="pill-note" data-i18n="hero.note2">One-time purchase: $19</span>
-                <span class="pill-note" data-i18n="hero.note3">Apple Pay, card, PayPal via Paddle</span>
-              </div>
-
-              <div class="hero-proof">
-                <div class="proof-card">
-                  <strong data-i18n="hero.proof1Value">3 days</strong>
-                  <span data-i18n="hero.proof1Body">Full trial before you decide.</span>
-                </div>
-                <div class="proof-card">
-                  <strong data-i18n="hero.proof2Value">$19</strong>
-                  <span data-i18n="hero.proof2Body">Lifetime license for the first release.</span>
-                </div>
-                <div class="proof-card">
-                  <strong data-i18n="hero.proof3Value">2 Macs</strong>
-                  <span data-i18n="hero.proof3Body">One purchase can be activated on up to 2 Macs.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="hero-art hero-art-screenshot">
-              <div class="hero-shot-card">
-                <img src="./assets/app-panel.png" alt="uho Dictation main window" class="hero-shot" />
-              </div>
             </div>
           </div>
-        </section>
+        </header>
 
-        <section class="section section-tight" id="how-it-works">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="how.title">How it works</h2>
-              <p data-i18n="how.body">
-                The first commercial flow is intentionally simple: download the app, try it on your Mac, then buy only if it fits.
-              </p>
-            </div>
-
-            <div class="how-grid">
-              <article class="how-step">
-                <div class="step-number">1</div>
-                <h3 data-i18n="how1.title">Download and install</h3>
-                <p data-i18n="how1.body">
-                  Get the Apple Silicon DMG, move the app to Applications, and grant the Mac permissions shown in setup.
-                </p>
-              </article>
-
-              <article class="how-step">
-                <div class="step-number">2</div>
-                <h3 data-i18n="how2.title">Use the full 3-day trial</h3>
-                <p data-i18n="how2.body">
-                  Try the real product in notes, chats, documents, forms, and other text fields before paying.
-                </p>
-              </article>
-
-              <article class="how-step">
-                <div class="step-number">3</div>
-                <h3 data-i18n="how3.title">Buy and receive your license key</h3>
-                <p data-i18n="how3.body">
-                  Enter your email, complete secure Paddle checkout, and receive the license key automatically after payment.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="features">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="features.title">What you get</h2>
-              <p data-i18n="features.body">
-                A small app, a clear setup flow, and a simple commercial model that is easy to understand.
-              </p>
-            </div>
-
-            <div class="benefit-grid benefit-grid-compact">
-              <article class="benefit-card">
-                <div class="benefit-icon" aria-hidden="true">⌨</div>
-                <h3 data-i18n="benefit1.title">Fast voice-to-text anywhere</h3>
-                <p data-i18n="benefit1.body">
-                  Speak and get text into the app you are already using instead of switching into a separate writing tool.
-                </p>
-              </article>
-
-              <article class="benefit-card">
-                <div class="benefit-icon" aria-hidden="true">⚙</div>
-                <h3 data-i18n="benefit2.title">Simple setup on Mac</h3>
-                <p data-i18n="benefit2.body">
-                  The app guides you through microphone, accessibility, and input monitoring so you can start quickly.
-                </p>
-              </article>
-
-              <article class="benefit-card">
-                <div class="benefit-icon" aria-hidden="true">∞</div>
-                <h3 data-i18n="benefit3.title">Simple purchase model</h3>
-                <p data-i18n="benefit3.body">
-                  Start with a 3-day trial, then buy once and activate the lifetime license on up to 2 Macs.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="shots.title">Inside the app</h2>
-              <p data-i18n="shots.body">
-                These are real screenshots from the current product, not conceptual mockups.
-              </p>
-            </div>
-
-            <div class="shots-grid">
-              <article class="shot-card shot-card-wide">
-                <img src="./assets/setup-window.png" alt="uho Dictation setup window" class="shot-image" />
-                <div class="shot-copy">
-                  <h3 data-i18n="shots.setupTitle">Guided setup</h3>
-                  <p data-i18n="shots.setupBody">
-                    The app walks the user through installation and permissions before everyday use.
-                  </p>
-                </div>
-              </article>
-
-              <article class="shot-card">
-                <img src="./assets/models-window.png" alt="uho Dictation models window" class="shot-image" />
-                <div class="shot-copy">
-                  <h3 data-i18n="shots.modelsTitle">Clear model choices</h3>
-                  <p data-i18n="shots.modelsBody">
-                    Fast, Balanced, and Accurate modes are explained directly inside the app.
-                  </p>
-                </div>
-              </article>
-
-              <article class="shot-card">
-                <img src="./assets/license-window-active.png" alt="uho Dictation license window" class="shot-image" />
-                <div class="shot-copy">
-                  <h3 data-i18n="shots.licenseTitle">Calm activation flow</h3>
-                  <p data-i18n="shots.licenseBody">
-                    The commercial status stays simple: trial, active, or not active, with one place for licensing actions.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="pricing">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="pricing.title">Pricing</h2>
-              <p data-i18n="pricing.body">
-                Minimal, clear, and easy to verify before launch.
-              </p>
-            </div>
-
-            <div class="pricing-grid">
-              <article class="price-card featured">
+        <main id="top">
+          <section class="hero">
+            <div class="container hero-grid">
+              <div class="hero-copy">
                 <span class="eyebrow">
-                  <span class="eyebrow-dot" aria-hidden="true"></span>
-                  <span data-i18n="pricing.badge">Lifetime license</span>
+                  <span class="eyebrow-icon" aria-hidden="true"></span>
+                  <span data-i18n="hero.eyebrow">For Mac with Apple Silicon</span>
                 </span>
-                <div class="price-line">
-                  <strong>$19</strong>
-                  <span data-i18n="pricing.oneTime">one-time purchase</span>
+
+                <h1 data-i18n="hero.title">Dictate anywhere on your Mac</h1>
+
+                <p class="hero-lead" data-i18n="hero.body">
+                  Turn your voice into text in any app. Fast, private and fully offline.
+                </p>
+
+                <div class="hero-actions">
+                  <a
+                    class="button button-primary button-large"
+                    href="https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg"
+                    data-download
+                    data-i18n="hero.ctaTrial"
+                  >
+                    Download Free 3-Day Trial
+                  </a>
+                  <a class="button button-secondary button-large" href="#how-it-works" data-i18n="hero.ctaHow">
+                    Watch Demo
+                  </a>
                 </div>
-                <p data-i18n="pricing.cardBody">
-                  Buy once, activate up to 2 Macs, and keep using the commercial version without a recurring fee.
-                </p>
 
-                <ul class="feature-list">
-                  <li data-i18n="pricing.feature1">3-day full trial before purchase</li>
-                  <li data-i18n="pricing.feature2">License key delivered automatically by email</li>
-                  <li data-i18n="pricing.feature3">Activation on up to 2 Macs</li>
-                </ul>
-              </article>
+                <div class="hero-benefits-inline">
+                  <article class="inline-benefit">
+                    <div>
+                      <strong data-i18n="hero.benefit1Title">Fully Offline</strong>
+                      <span data-i18n="hero.benefit1Body">Your data stays on your Mac</span>
+                    </div>
+                  </article>
+                  <article class="inline-benefit">
+                    <div>
+                      <strong data-i18n="hero.benefit2Title">Works Everywhere</strong>
+                      <span data-i18n="hero.benefit2Body">In any application</span>
+                    </div>
+                  </article>
+                  <article class="inline-benefit">
+                    <div>
+                      <strong data-i18n="hero.benefit3Title">One-Time Purchase</strong>
+                      <span data-i18n="hero.benefit3Body">No subscriptions</span>
+                    </div>
+                  </article>
+                </div>
+              </div>
 
-              <article class="price-card">
-                <h3 data-i18n="buy.title">Buy now</h3>
-                <p data-i18n="buy.body">
-                  Enter the email where you want to receive the license key. Checkout opens in a secure Paddle page.
-                </p>
+              <div class="hero-visual">
+                <div class="laptop-stage">
+                  <img src="./assets/reference/hero-ui-replacement.png" alt="uho Dictation interface" class="hero-ui-reference" />
+                </div>
+              </div>
+            </div>
+          </section>
 
-                <form class="buy-form" data-buy-form>
-                  <label>
-                    <span class="field-label" data-i18n="buy.emailLabel">Email for purchase</span>
-                    <input class="input" type="email" placeholder="you@example.com" data-purchase-email required autocomplete="email" spellcheck="false" data-i18n-placeholder="buy.emailPlaceholder" />
-                  </label>
+          <section class="trust-strip">
+            <div class="container">
+              <p class="trust-title" data-i18n="trust.title">Trusted by productive people</p>
+              <div class="trust-grid">
+                <span data-i18n="trust.role1">Writers</span>
+                <span data-i18n="trust.role2">Developers</span>
+                <span data-i18n="trust.role3">Students</span>
+                <span data-i18n="trust.role4">Creators</span>
+                <span data-i18n="trust.role5">Professionals</span>
+              </div>
+            </div>
+          </section>
 
-                  <button class="button button-primary" type="submit" data-submit data-i18n="buy.button">
-                    Buy lifetime license
-                  </button>
+          <section class="section section-light" id="how-it-works">
+            <div class="container">
+              <div class="section-heading section-heading-centered">
+                <h2 data-i18n="how.title">How it works</h2>
+                <p data-i18n="how.body">Just 4 simple steps</p>
+              </div>
 
-                  <div class="status-text" data-status data-i18n="buy.statusDefault">
-                    Apple Pay, card, or PayPal will appear depending on device and availability.
+              <div class="how-comic-wrap">
+                <img src="./assets/reference/how-it-works-comic.png" alt="How uho Dictation works" class="how-comic-image" />
+              </div>
+            </div>
+          </section>
+
+          <section class="section section-light section-benefits" id="features">
+            <div class="container">
+              <div class="benefit-grid">
+                <article class="benefit-card">
+                  <div class="benefit-icon" aria-hidden="true">△</div>
+                  <h3 data-i18n="benefit1.title">Faster workflow</h3>
+                  <p data-i18n="benefit1.body">Start and stop instantly with one key.</p>
+                </article>
+
+                <article class="benefit-card">
+                  <div class="benefit-icon" aria-hidden="true">⌂</div>
+                  <h3 data-i18n="benefit2.title">Better everyday usability</h3>
+                  <p data-i18n="benefit2.body">Designed for power users.</p>
+                </article>
+
+                <article class="benefit-card">
+                  <div class="benefit-icon" aria-hidden="true">☑</div>
+                  <h3 data-i18n="benefit3.title">Designed for privacy</h3>
+                  <p data-i18n="benefit3.body">100% offline. Your data stays on your Mac.</p>
+                </article>
+
+                <article class="benefit-card">
+                  <div class="benefit-icon" aria-hidden="true">✦</div>
+                  <h3 data-i18n="benefit4.title">Built for Apple Silicon</h3>
+                  <p data-i18n="benefit4.body">Optimized for performance and efficiency.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="section section-light" id="pricing">
+            <div class="container">
+              <div class="pricing-banner">
+                <div class="pricing-copy">
+                  <span class="pricing-kicker" data-i18n="pricing.kicker">Limited Launch Offer</span>
+                  <h2 data-i18n="pricing.title">Lifetime License</h2>
+                  <p data-i18n="pricing.body">Pay once. Use forever.</p>
+                </div>
+
+                <div class="pricing-center">
+                  <div class="pricing-amount">
+                    <span class="pricing-was" data-i18n="pricing.was">$39</span>
+                    <strong data-i18n="pricing.now">$19</strong>
                   </div>
-                </form>
-              </article>
+                  <p data-i18n="pricing.oneTime">One-time payment</p>
+                  <span class="pricing-launch-note" data-i18n="pricing.launchNote">Early Adopter Launch Offer</span>
+                </div>
+
+                <div class="pricing-actions">
+                  <a
+                    class="button button-primary button-large"
+                    href="https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg"
+                    data-download
+                    data-i18n="pricing.ctaTrial"
+                  >
+                    Download Free 3-Day Trial
+                  </a>
+                  <button class="button button-ghost-light" type="button" data-open-buy data-i18n="pricing.ctaBuy">
+                    Buy when ready
+                  </button>
+                  <p data-i18n="pricing.note">No credit card required for the trial</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section class="section" id="faq">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="faq.title">FAQ</h2>
-              <p data-i18n="faq.body">
-                The minimum practical information for trial, payment, and activation.
-              </p>
+          <section class="section section-light" id="faq">
+            <div class="container">
+              <div class="section-heading section-heading-centered">
+                <h2 data-i18n="faq.title">Frequently asked questions</h2>
+              </div>
+
+              <div class="faq-grid">
+                <article class="faq-item">
+                  <h3 data-i18n="faq1.title">Does uho Dictation work offline?</h3>
+                  <p data-i18n="faq1.body">Yes. The app is built around an offline workflow on your Mac.</p>
+                </article>
+                <article class="faq-item">
+                  <h3 data-i18n="faq2.title">Can I try it before buying?</h3>
+                  <p data-i18n="faq2.body">Yes. Start with the free 3-day trial and upgrade later if it fits.</p>
+                </article>
+                <article class="faq-item">
+                  <h3 data-i18n="faq3.title">Does it require a subscription?</h3>
+                  <p data-i18n="faq3.body">No. It is a one-time purchase for a lifetime license.</p>
+                </article>
+                <article class="faq-item">
+                  <h3 data-i18n="faq4.title">How long does the license last?</h3>
+                  <p data-i18n="faq4.body">It is sold as a lifetime license for this product line.</p>
+                </article>
+                <article class="faq-item">
+                  <h3 data-i18n="faq5.title">What Macs are supported?</h3>
+                  <p data-i18n="faq5.body">The current release is made for Apple Silicon Macs.</p>
+                </article>
+                <article class="faq-item">
+                  <h3 data-i18n="faq6.title">What if the email does not arrive?</h3>
+                  <p data-i18n-html="faq6.body">Check spam first. If needed, contact <a data-support-email></a> and we will help.</p>
+                </article>
+              </div>
             </div>
-
-            <div class="faq-grid faq-grid-compact">
-              <article class="faq-item">
-                <h3 data-i18n="faq1.title">Is this a subscription?</h3>
-                <p data-i18n="faq1.body">No. This is a one-time purchase for a lifetime license.</p>
-              </article>
-
-              <article class="faq-item">
-                <h3 data-i18n="faq2.title">How long is the trial?</h3>
-                <p data-i18n="faq2.body">The commercial app starts with a full 3-day trial on your Mac.</p>
-              </article>
-
-              <article class="faq-item">
-                <h3 data-i18n="faq3.title">How many Macs can I activate?</h3>
-                <p data-i18n="faq3.body">One purchase can be activated on up to 2 Macs.</p>
-              </article>
-
-              <article class="faq-item">
-                <h3 data-i18n="faq4.title">How do I receive the license key?</h3>
-                <p data-i18n="faq4.body">Right after payment, the license key is sent automatically to the purchase email you entered.</p>
-              </article>
-
-              <article class="faq-item">
-                <h3 data-i18n="faq5.title">Can I pay with Apple Pay?</h3>
-                <p data-i18n="faq5.body">Yes, when Paddle shows it on supported Apple devices and browsers.</p>
-              </article>
-
-              <article class="faq-item">
-                <h3 data-i18n="faq6.title">What if the email does not arrive?</h3>
-                <p data-i18n-html="faq6.body">
-                  Check spam or promotions first. If needed, contact <a data-support-email></a> and we will help.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section section-tight">
-          <div class="container">
-            <div class="section-heading section-heading-compact">
-              <h2 data-i18n="review.title">Before you buy</h2>
-              <p data-i18n="review.body">
-                The commercial details are visible on purpose so the first release is easy to review and easy to trust.
-              </p>
-            </div>
-
-            <div class="review-grid">
-              <article class="review-card">
-                <span class="review-label" data-i18n="review1.label">Purchase model</span>
-                <h3 data-i18n="review1.title">One-time payment, not a subscription</h3>
-                <p data-i18n="review1.body">
-                  The first release is sold as a $19 lifetime license. One purchase can be activated on up to 2 Macs.
-                </p>
-              </article>
-
-              <article class="review-card">
-                <span class="review-label" data-i18n="review2.label">Checkout</span>
-                <h3 data-i18n="review2.title">Secure payment via Paddle</h3>
-                <p data-i18n="review2.body">
-                  Checkout is handled by Paddle as merchant of record. Available methods may include card, Apple Pay, or PayPal.
-                </p>
-              </article>
-
-              <article class="review-card">
-                <span class="review-label" data-i18n="review3.label">Delivery</span>
-                <h3 data-i18n="review3.title">License key sent by email</h3>
-                <p data-i18n="review3.body">
-                  After successful payment, the license key is delivered automatically to the email entered at checkout.
-                </p>
-              </article>
-
-              <article class="review-card">
-                <span class="review-label" data-i18n="review4.label">Support and policies</span>
-                <h3 data-i18n="review4.title">Clear support and legal pages</h3>
-                <p data-i18n-html="review4.body">
-                  Terms, Privacy Policy, Refund Policy, and support contact are available directly on this website.
-                </p>
-              </article>
-
-              <article class="review-card">
-                <span class="review-label" data-i18n="review5.label">Platform</span>
-                <h3 data-i18n="review5.title">Built for Apple Silicon Mac</h3>
-                <p data-i18n="review5.body">
-                  The current release is distributed as an Apple Silicon DMG and is meant to be moved into Applications before first use.
-                </p>
-              </article>
-
-              <article class="review-card">
-                <span class="review-label" data-i18n="review6.label">First launch</span>
-                <h3 data-i18n="review6.title">Clear permission guidance</h3>
-                <p data-i18n="review6.body">
-                  Setup explains the permissions needed for normal use, including Microphone, Accessibility, and recommended Input Monitoring.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-      </main>
+          </section>
+        </main>
+      </section>
 
       <footer class="site-footer">
-        <div class="container footer-grid">
-          <div class="footer-card">
+        <div class="container footer-inner">
+          <div class="footer-brand">
             <div class="brand">
               <img class="brand-icon" src="./assets/uho-icon.png" alt="uho Dictation icon" />
               <span>
-                <span data-i18n="brand.name">uho Dictation</span>
-                <span class="brand-sub" data-i18n="footer.sub">Fast voice-to-text anywhere on Mac</span>
+                <span data-i18n="brand.name">uho</span>
+                <span class="brand-sub" data-i18n="brand.tagline">Dictation</span>
               </span>
             </div>
-
-            <p style="margin-top: 18px;" data-i18n="footer.body">
-              A small Mac app with a 3-day trial, a one-time purchase, and simple activation.
-            </p>
-
-            <div class="footer-links">
-              <a href="./terms.html" data-i18n="footer.terms">Terms</a>
-              <a href="./privacy.html" data-i18n="footer.privacy">Privacy</a>
-              <a href="./refund-policy.html" data-i18n="footer.refunds">Refund policy</a>
-              <a href="mailto:support@mail.uhodictation.com" data-support-email>support@mail.uhodictation.com</a>
-            </div>
+            <span class="footer-copy" data-i18n="footer.copy">© 2026 Uho. All rights reserved.</span>
           </div>
 
-          <div class="footer-card">
-            <h3 style="margin-top: 0;" data-i18n="footer.ctaTitle">Ready to try it?</h3>
-            <p data-i18n="footer.ctaBody">
-              Download the trial first, or go straight to secure checkout if you already know this is for you.
-            </p>
-            <div class="hero-actions" style="margin-top: 18px;">
-              <a class="button button-primary" href="https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg" data-download data-i18n="footer.ctaTrial">
-                Download free 3-day trial
-              </a>
-              <button class="button button-secondary" type="button" data-open-buy data-i18n="footer.ctaBuy">
-                Buy lifetime license
-              </button>
-            </div>
+          <div class="footer-links">
+            <a href="./privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+            <a href="./terms.html" data-i18n="footer.terms">Terms of Use</a>
+            <a href="./refund-policy.html" data-i18n="footer.refunds">Refund Policy</a>
           </div>
         </div>
       </footer>
@@ -442,11 +272,11 @@
             <input class="input" type="email" placeholder="you@example.com" data-purchase-email required autocomplete="email" spellcheck="false" data-i18n-placeholder="buy.emailPlaceholder" />
           </label>
 
-          <button class="button button-primary" type="submit" data-submit data-i18n="modal.button">
+          <button class="button button-primary" type="submit" data-submit data-i18n="buy.button">
             Open secure checkout
           </button>
 
-          <div class="status-text" data-status data-i18n="modal.statusDefault">
+          <div class="status-text" data-status data-i18n="buy.statusDefault">
             Checkout opens through Paddle. Apple Pay, card, or PayPal appear when available.
           </div>
         </form>
