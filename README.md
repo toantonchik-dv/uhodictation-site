@@ -27,7 +27,7 @@ The site lives in the repository root:
 Current public DMG URL:
 
 ```text
-https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho-dictation-1.1.0-arm64.dmg
+https://github.com/toantonchik-dv/uhodictation-site/releases/latest/download/uho-dictation-latest-arm64.dmg
 ```
 
 ## Deploy model
@@ -40,11 +40,11 @@ https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.0/uho
 
 This site also hosts the Sparkle appcast feeds used by the macOS app updater.
 
-- `appcast/uho.xml` - free app feed
-- `appcast/uho-dictation.xml` - commercial app feed
-- `appcast/` - also stores generated Sparkle ZIP archives, delta files, and release notes before deploy
+- `appcast/uho/uho.xml` - free app feed
+- `appcast/uho-dictation/uho-dictation.xml` - commercial app feed
+- `appcast/` - stores generated Sparkle ZIP archives, delta files, and release notes in per-app subfolders before deploy
 
-The app repository generates release ZIPs and appcasts. This site repository serves them publicly over HTTPS.
+The app repository generates release ZIPs and appcasts. This site repository serves the small appcast XML files publicly over HTTPS, while the heavy DMG/ZIP binaries stay in GitHub Releases.
 
 ## Local preview
 
