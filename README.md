@@ -20,7 +20,7 @@ The site lives in the repository root:
 
 - `Buy lifetime license` calls the live Supabase `create-checkout` function
 - Paddle checkout opens from the returned `checkoutURL`
-- support email is set to `support@mail.uhodictation.com`
+- support email is set to `support@uhodictation.com`
 
 ## Current release download
 

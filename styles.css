@@ -504,6 +504,56 @@ input {
   width: min(100%, 360px);
 }
 
+.section-contact {
+  padding-top: 16px;
+}
+
+.contact-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 28px 32px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(19, 25, 39, 0.06);
+  box-shadow: var(--shadow-light);
+}
+
+.contact-kicker {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--brand-strong);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.contact-panel h2 {
+  margin: 0;
+  color: #1a1f34;
+  font-size: clamp(30px, 3vw, 42px);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+}
+
+.contact-panel p {
+  max-width: 620px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.contact-email {
+  flex: 0 0 auto;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: rgba(123, 77, 255, 0.09);
+  color: var(--brand-strong);
+  font-size: 18px;
+  font-weight: 800;
+}
+
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -672,6 +722,11 @@ input {
     align-items: center;
   }
 
+  .contact-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .hero-benefits-inline,
   .trust-grid {
     grid-template-columns: 1fr;
@@ -718,6 +773,17 @@ input {
 
   .pricing-amount strong {
     font-size: 60px;
+  }
+
+  .contact-panel {
+    padding: 24px;
+  }
+
+  .contact-email {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    overflow-wrap: anywhere;
   }
 
   .modal-card {

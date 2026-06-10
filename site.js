@@ -60,6 +60,9 @@ const SITE_TRANSLATIONS = {
       "pricing.ctaTrial": "Download Free 3-Day Trial",
       "pricing.ctaBuy": "Buy when ready",
       "pricing.note": "No credit card required for the trial",
+      "contact.kicker": "Need help?",
+      "contact.title": "Contact support",
+      "contact.body": "Questions about purchase, activation, or whether uho Dictation fits your Mac workflow are welcome.",
       "faq.title": "Frequently asked questions",
       "faq1.title": "Does uho Dictation work offline?",
       "faq1.body": "Yes. The app is built around an offline workflow on your Mac.",
@@ -83,6 +86,7 @@ const SITE_TRANSLATIONS = {
       "footer.privacy": "Privacy Policy",
       "footer.terms": "Terms of Use",
       "footer.refunds": "Refund Policy",
+      "footer.contact": "Contact",
       "modal.title": "Buy uho Dictation",
       "modal.body": "Enter the email where you want to receive your lifetime license key after payment.",
       "modal.closeAria": "Close purchase dialog"
@@ -147,6 +151,9 @@ const SITE_TRANSLATIONS = {
       "pricing.ctaTrial": "Завантажити безкоштовний 3-денний пробний доступ",
       "pricing.ctaBuy": "Купити, коли будеш готовий",
       "pricing.note": "Для пробного доступу кредитна картка не потрібна",
+      "contact.kicker": "Потрібна допомога?",
+      "contact.title": "Напиши в підтримку",
+      "contact.body": "Можна написати щодо покупки, активації або того, чи підійде uho Dictation для твого Mac workflow.",
       "faq.title": "Часті запитання",
       "faq1.title": "Чи працює uho Dictation офлайн?",
       "faq1.body": "Так. Застосунок побудований навколо офлайн-сценарію на твоєму Mac.",
@@ -170,6 +177,7 @@ const SITE_TRANSLATIONS = {
       "footer.privacy": "Політика приватності",
       "footer.terms": "Умови використання",
       "footer.refunds": "Політика повернення",
+      "footer.contact": "Контакти",
       "modal.title": "Купити uho Dictation",
       "modal.body": "Введи email, на який хочеш отримати свій довічний ліцензійний ключ після оплати.",
       "modal.closeAria": "Закрити вікно покупки"
@@ -197,7 +205,7 @@ const SITE_TRANSLATIONS = {
       "s6.title": "6. Acceptable use",
       "s6.body": "You may not abuse, reverse-engineer for redistribution, resell unauthorized copies, or use the product in a way that violates applicable law.",
       "s7.title": "7. Support",
-      "s7.body": "Reasonable support is available by email at <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a>.",
+      "s7.body": "Reasonable support is available by email at <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a>.",
       "s8.title": "8. Refunds",
       "s8.body": "Refund handling is described in the <a href=\"./refund-policy.html\">Refund Policy</a>. Because users are offered a free trial before purchase, the trial should normally be used first to decide whether the app fits the user’s workflow.",
       "s9.title": "9. Changes",
@@ -224,7 +232,7 @@ const SITE_TRANSLATIONS = {
       "s6.title": "6. Допустиме використання",
       "s6.body": "Не можна зловживати продуктом, реверс-інжинірити його з метою нелегального розповсюдження, перепродавати неавторизовані копії або використовувати продукт з порушенням чинного законодавства.",
       "s7.title": "7. Підтримка",
-      "s7.body": "Розумна підтримка доступна через email: <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a>.",
+      "s7.body": "Розумна підтримка доступна через email: <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a>.",
       "s8.title": "8. Повернення коштів",
       "s8.body": "Порядок повернення описаний у <a href=\"./refund-policy.html\">політиці повернення</a>. Оскільки перед покупкою користувачеві надається безкоштовний пробний доступ, зазвичай саме його варто використати, щоб зрозуміти, чи підходить застосунок під конкретний спосіб роботи.",
       "s9.title": "9. Зміни",
@@ -253,7 +261,7 @@ const SITE_TRANSLATIONS = {
       "s6.title": "6. Product behavior",
       "s6.body": "The product messaging emphasizes practical use first. Privacy and local processing are treated as supporting strengths, not as hype language.",
       "s7.title": "7. Contact",
-      "s7.body": "For privacy questions or support, contact <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a>."
+      "s7.body": "For privacy questions or support, contact <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a>."
     },
     uk: {
       "meta.title": "uho Dictation | Політика приватності",
@@ -276,7 +284,7 @@ const SITE_TRANSLATIONS = {
       "s6.title": "6. Поведінка продукту",
       "s6.body": "Комунікація продукту побудована навколо практичної користі. Приватність і локальна обробка виступають як сильні додаткові переваги, а не як гучний рекламний слоган.",
       "s7.title": "7. Контакт",
-      "s7.body": "З питаннями про приватність або підтримку пиши на <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a>."
+      "s7.body": "З питаннями про приватність або підтримку пиши на <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a>."
     },
   },
   refunds: {
@@ -293,7 +301,7 @@ const SITE_TRANSLATIONS = {
       "s2.title": "2. Refund window",
       "s2.body": "If you buy and run into a real problem, contact us within 14 days of purchase and we will help review the case. If the product is not working as expected for your setup and we cannot resolve it reasonably, we will do our best to approve a refund.",
       "s3.title": "3. How to request help",
-      "s3.body": "Email <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a> and include the purchase email you used at checkout plus a short description of the issue.",
+      "s3.body": "Email <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a> and include the purchase email you used at checkout plus a short description of the issue.",
       "s4.title": "4. Payment processor",
       "s4.body": "Paddle acts as merchant of record for checkout and may also have its own refund-related procedures tied to the payment transaction.",
       "s5.title": "5. Our goal",
@@ -312,7 +320,7 @@ const SITE_TRANSLATIONS = {
       "s2.title": "2. Вікно для повернення",
       "s2.body": "Якщо ти купив продукт і зіткнувся з реальною проблемою, зв’яжися з нами протягом 14 днів після покупки, і ми розглянемо ситуацію. Якщо продукт не працює для твого сценарію так, як очікувалося, і ми не можемо це розумно виправити, ми зробимо все можливе, щоб погодити повернення коштів.",
       "s3.title": "3. Як звернутися по допомогу",
-      "s3.body": "Напиши на <a href=\"mailto:support@mail.uhodictation.com\">support@mail.uhodictation.com</a> і додай email, який використовував під час checkout, а також короткий опис проблеми.",
+      "s3.body": "Напиши на <a href=\"mailto:support@uhodictation.com\">support@uhodictation.com</a> і додай email, який використовував під час checkout, а також короткий опис проблеми.",
       "s4.title": "4. Платіжний процесор",
       "s4.body": "Paddle виступає merchant of record для checkout і може мати власні процедури, пов’язані з поверненням у межах конкретної платіжної транзакції.",
       "s5.title": "5. Наша мета",
