@@ -3,13 +3,13 @@
     <channel>
         <title>uho Dictation</title>
         <item>
-            <title>1.1.6</title>
-            <pubDate>Sat, 13 Jun 2026 19:51:33 +0300</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <title>1.1.7</title>
+            <pubDate>Mon, 29 Jun 2026 13:11:27 +0300</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.6/uho-dictation-1.1.6-arm64.zip" length="271319133" type="application/octet-stream" sparkle:edSignature="q+hpyYE9+/rhxFmYlauaX49EW6AiIV7L2RGomi1ddA+tTCJWF1u2UP/4CTcFFvYljwsRQ6wS5MIDo5PG1v0xCg=="/>
+            <enclosure url="https://github.com/toantonchik-dv/uhodictation-site/releases/download/v1.1.7/uho-dictation-1.1.7-arm64.zip" length="271322827" type="application/octet-stream" sparkle:edSignature="hkqA3wb6fqRQSu13nmBLOHk1yTZZhJ+WXFTRMQNXXtfe6qGfOleF4Smcdvg8xsD2ZxEI3D0OboWNlfTiFrT9Cw=="/>
         </item>
     </channel>
 </rss>
